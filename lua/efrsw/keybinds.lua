@@ -2,8 +2,8 @@ vim.g.mapleader = " "
 
 local bind = vim.keymap.set
 
-bind('n', '<leader>hw', function()
+bind("n", "<leader>hw", function()
 	print("Hello, VIM!")
 end)
 
-bind('n', '<leader>pv', vim.cmd.Ex)
+bind("n", "<leader>pv", vim.cmd.Ex)
